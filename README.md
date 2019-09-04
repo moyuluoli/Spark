@@ -7,3 +7,7 @@ DStream是抽象类，它把连续的数据流拆成很多的小RDD数据块， 
 这个代码会产生执行错误， 因为rdd是分布式存储的，它是一个数据结构，它是一组指向集群数据的指针， rdd.foreach会在集群里的不同机器上创建spark工作线程， 而connection对象则不会在集群里的各个机器之间传递， 所以有些spark工作线程就会产生connection对象没有被初始化的执行错误。 解决的办法可以是在spark worker里为每一个worker创建一个connection对象， 但是如果你这么做， 程序要为每一条record创建一次connection，显然效率和性能都非常差。
 
 另一种改进方法是为每个spark分区创建一个connection对象，同时维护一个全局的静态的连接迟对象， 这样就可以最好的复用connection。 另外需要注意： 虽然有多个connection对象， 但在同一时间只有一个connection.send(record)执行， 因为在同一个时间里， 只有 一个微批次的RDD产生出来。
+
+
+参考文献：
+https://www.cnblogs.com/jinggangshan/p/8086492.html
