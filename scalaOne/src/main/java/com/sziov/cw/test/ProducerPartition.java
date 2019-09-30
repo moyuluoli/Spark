@@ -1,8 +1,5 @@
 package com.sziov.cw.test;
 
-import java.util.*;
-import java.util.stream.Collectors;
-
 import kafka.admin.AdminUtils;
 import kafka.admin.RackAwareMode;
 import kafka.admin.TopicCommand;
@@ -14,6 +11,9 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.apache.kafka.common.security.JaasUtils;
 import scala.collection.JavaConversions;
+
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class ProducerPartition {
 
@@ -147,13 +147,18 @@ public class ProducerPartition {
 	 * @param zkUtils
 	 */
 	private static void create(ZkUtils zkUtils) {
-		String topic="test01";
+		String topic="tbox_period_1s";
+//		String topic="tbox_period_5s";
+//		String topic="tbox_period_30s";
+//		String topic="tbox_period_60s";
+//		String topic="tbox_event_msg";
         // 创建一个单分区单副本名为test01的topic
 		if (!AdminUtils.topicExists(zkUtils,topic)){
 //			AdminUtils.createTopic(zkUtils,config.getTopicName(),config.getPartitions(),
 //					config.getReplication_factor(),config.getProperties(),
 //					AdminUtils.createTopic$default$6());
-			AdminUtils.createTopic(zkUtils, "test01", 15, 3, new Properties(), RackAwareMode.Enforced$.MODULE$);
+//			AdminUtils.createTopic(zkUtils, "test01", 15, 3, new Properties(), RackAwareMode.Enforced$.MODULE$);
+			AdminUtils.createTopic(zkUtils, topic, 15, 2, new Properties(), RackAwareMode.Enforced$.MODULE$);
 			System.out.println("messages:successful create!");
 		}
 		else {

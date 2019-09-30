@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="newbike" />
+        <module name="ClouderaManagerAPI" />
+        <module name="scalaOne" />
+        <module name="flinkOne" />
+        <module name="flume-interceptor" />
+        <module name="SpiderOne" />
+        <module name="mongodb_demo" />
+        <module name="spark-mongo" />
+        <module name="springbatch_demo" />
+        <module name="flinkKafka" />
+        <module name="flinkTwo" />
+        <module name="read-yml" />
+        <module name="crawlerOne" />
+        <module name="kafkaOne" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="ClouderaManagerAPI" target="1.5" />
+      <module name="crawlerOne" target="1.8" />
+      <module name="flinkKafka" target="1.5" />
+      <module name="flinkOne" target="1.8" />
+      <module name="flinkTwo" target="1.8" />
+      <module name="flume-interceptor" target="1.5" />
+      <module name="kafkaOne" target="1.8" />
+      <module name="mongodb_demo" target="1.8" />
+      <module name="newbike" target="1.8" />
+      <module name="read-yml" target="1.8" />
+      <module name="scalaOne" target="1.8" />
+      <module name="spark-mongo" target="1.8" />
+      <module name="SpiderOne" target="1.8" />
+      <module name="springbatch_demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crawlerOne" options="-parameters" />
+      <module name="kafkaOne" options="-parameters" />
+      <module name="mongodb_demo" options="-parameters" />
+      <module name="newbike" options="-parameters" />
+      <module name="spark-mongo" options="-parameters" />
+      <module name="springbatch_demo" options="-parameters" />
+    </option>
+  </component>
+</project>
