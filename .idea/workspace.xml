@@ -2,503 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="scalaOne:jar" />
+      <artifact name="TimeLoop" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79b373de-c5fd-4d53-8cfc-456cad5f4ada" name="Default Changelist" comment="第二次提交">
-      <change afterPath="$PROJECT_DIR$/ClouderaManagerAPI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClouderaManagerAPI/src/main/java/com/sziov/hive/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpiderOne/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpiderOne/src/main/java/Spider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpiderOne/src/main/java/test01/SpiderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpiderOne/src/main/java/test01/SpiderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpiderOne/src/main/java/test01/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpiderOne/src/main/java/test02/WebCrawlerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpiderOne/src/main/java/util/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/java/com/cw/c01/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/java/com/cw/c01/common/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/java/com/cw/c01/common/SysConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/java/com/cw/c01/dao/GoodsInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/java/com/cw/c01/dao/impl/GoodsInfoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/java/com/cw/c01/domain/GoodsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/java/com/cw/c01/handler/SpiderHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/java/com/cw/c01/service/SpiderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/test/java/com/sziov/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/test/java/com/sziov/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/test/java/com/sziov/SpiderFromBaidu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/test/java/com/sziov/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlerOne/src/test/java/com/sziov/pachong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkKafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/main/java/cw/bean/WordWithCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/main/java/cw/flink/FilnkCostKafka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/main/java/cw/flink/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/main/java/cw/flink/SocketWindowWordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/main/java/cw/flink/test01/CustomWatermarkEmitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/main/java/cw/flink/test01/KafkaDeme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/main/resources/people.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/main/scala/com/flink/Person1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/test/java/file/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/test/java/file/FileOperate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/test/java/file/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/test/java/file/FileUtil02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/test/java/file/FileUtil03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/test/java/file/FileUtil05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkOne/src/test/java/file/fuzhiwenjianjiaTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkTwo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkTwo/src/main/resources/score.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkTwo/src/main/scala/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flinkTwo/src/main/scala/TableSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume-interceptor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume-interceptor/src/main/java/com/sziov/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/doc/ConAssignor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/kafka/codeSource.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/kafka/consumer/KafkaConsumerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/kafka/producer/KafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/kafka/producer/KafkaProducerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/kafka/producer/KafkaSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/kafka/strategy/AfeiAssignor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/kafka/strategy/RandomAssignor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/kafka/test01/KafkaConsumer01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/kafka/test01/KafkaProducer01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/utils/PropertiesUtil02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/java/utils/PropertyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaOne/src/main/resources/config/kafka.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb_demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb_demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb_demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb_demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb_demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb_demo/src/main/java/com/example/mongodb_demo/MongodbDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb_demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb_demo/src/test/java/com/example/mongodb_demo/MongodbDemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/NewbikeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/contorller/BikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/contorller/LogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/contorller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/mapper/BikeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/mapper/BikeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/pojo/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/service/BikeServce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/service/BikeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/service/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/java/com/bike/service/LogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/hangzhou-tracks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/bike/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/bike/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/bike/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/charts/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/charts/map1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/charts/position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/user/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/user/edit(1).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/user/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/pages/user/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/css/H-ui.admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/css/H-ui.login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/images/acrossTab/acrossTab-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/images/admin-login-bg.bak.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/images/admin-login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/images/admin-loginform-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/images/cn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/images/um.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/js/H-ui.admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/js/de_DE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/black/acrossTab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/black/acrossTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/black/icon_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/black/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/default/acrossTab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/default/acrossTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/default/icon_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/default/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/green/acrossTab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/green/acrossTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/green/icon_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/green/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/orange/acrossTab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/orange/acrossTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/orange/icon_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/orange/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/red/acrossTab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/red/acrossTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/red/icon_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/red/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/yellow/acrossTab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/yellow/acrossTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/yellow/icon_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui.admin/skin/yellow/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/css/H-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/css/H-ui.ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/css/H-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/css/H-ui.reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/Hui-tags/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/acrossTab/acrossTab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/acrossTab/acrossTab-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/acrossTab/acrossTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/dataTable/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/dataTable/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/dataTable/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/dropDown/icon-jt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/201.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/202.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/203.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/204.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/205.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/206.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/207.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/208.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/209.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/210.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/0(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/1(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/10(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/100(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/101(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/102(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/103(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/104(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/105(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/106(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/11(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/12(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/13(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/14(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/15(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/16(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/18(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/19(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/2(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/20(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/21(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/22(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/23(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/24(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/25(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/26(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/28(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/29(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/3(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/31(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/35(1).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/face/QQ/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iCheck/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/iconpic-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/jselect/iconpic-arrow-down2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/loading/loading-b.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/loading/loading-s.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/rollpic/unslider-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/star/iconpic-star-S-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/star/iconpic-star-S.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/steps/step_arrow-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/steps/step_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/steps/step_bg-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/steps/step_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/ucnter/avatar-default-S.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/ucnter/avatar-default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/ucnter/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/ucnter/noavatar_small.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/validform/iconpic-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/validform/iconpic-right(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/validform/iconpic-warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/verticalTab/tabNav-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/verticalTab/tabNav-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/verticalTab/tabNav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/verticalTab/tabNav_right-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/verticalTab/tabNav_right-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/verticalTab/tabNav_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/images/verticalTab/tab_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/js/H-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/h-ui/js/H-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/DD_belatedPNG_0.0.8a-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/Hui-iconfont/1.0.8/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/Hui-iconfont/1.0.8/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/Hui-iconfont/1.0.8/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/Hui-iconfont/1.0.8/iconfont.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/Hui-iconfont/1.0.8/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/Hui-iconfont/1.0.8/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/Hui-iconfont/1.0.8/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/twoer/datepicker-dev.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/twoer/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/twoer/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/twoer/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/My97DatePicker/4.8/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/datatables/1.10.0/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/echarts/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/expressInstall.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/jquery.SuperSlide/2.1.1/jquery.SuperSlide.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/jquery.contextmenu/jquery.contextmenu.r2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/jquery.validation/1.14.0/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/jquery.validation/1.14.0/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/jquery.validation/1.14.0/messages_zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/jquery.validation/1.14.0/validate-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/jquery/1.9.1/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/jquery/1.9.1/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/jselect-1.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/layer/2.4/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/layer/2.4/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/layer/2.4/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/layer/2.4/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/layer/2.4/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/layer/2.4/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/layer/2.4/skin/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/laypage/1.2/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/laypage/1.2/skin/laypage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/squid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/lib/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/scripts/bike/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/scripts/bike/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/scripts/bike/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/scripts/user/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/scripts/user/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/main/webapp/static/scripts/user/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newbike/src/test/java/com/bike/boot/NewbikeApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read-yml/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read-yml/src/main/java/com/sziov/test01/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read-yml/src/main/java/com/sziov/utils/BootYaml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read-yml/src/main/java/com/sziov/utils/YmlPropUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/java/com/sziov/cw/kafka/ConsumerOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/java/com/sziov/cw/kafka/ConsumerTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/java/com/sziov/cw/test/JavaConfigurationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/java/com/sziov/cw/test/PureJavaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/java/com/sziov/cw/test/SparkDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/java/com/sziov/cw/utils/CalculateHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/java/com/sziov/cw/utils/ChineseCalendarUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/resources/t.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/scala/kafka/DirectKafkaExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/scala/kafka/DirectStream.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/scala/kafka/SparkKafkaDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/scala/test/PopularTeacher.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/scala/test/SelfPartition.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/src/main/scala/test/SelfPartition2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/com/sziov/cw/constants/ConstantsSQL.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/com/sziov/cw/test/MotorDF.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/com/sziov/cw/test/NewKafkaSendUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/com/sziov/cw/test/Partition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/com/sziov/cw/test/ProducerPartition$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/com/sziov/cw/test/ProducerPartition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/com/sziov/cw/test/mysqlToDataFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/com/sziov/cw/utils/QueryDB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/kafka.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$10$$anonfun$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$10$$anonfun$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$10$$anonfun$13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$typecreator1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$$typecreator2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/DemoCalc2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/MovieRating1$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/MovieRating1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/MovieRecs$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/MovieRecs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/Recommendation$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/Recommendation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/UserRecs$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/UserRecs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/jdbc$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/jdbc$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/jdbc$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaOne/target/classes/scala/jdbc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/src/main/java/com/sziov/SparkMongoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/src/main/scala/com/sziov/MongoSparkRDD.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/src/main/scala/com/sziov/MongoSparkSQL.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/src/main/scala/com/sziov/PVAndUV.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-mongo/src/test/java/com/sziov/SparkMongoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/main/java/com/sziov/springbatch/SpringBatchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/main/java/com/sziov/springbatch/batch/DataBatchConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/main/java/com/sziov/springbatch/config/ExecutorConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/main/java/com/sziov/springbatch/listener/JobListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/main/java/com/sziov/springbatch/model/Access.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/main/resources/metadata/access.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/main/resources/metadata/batch_innodb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbatch_demo/src/test/java/com/sziov/springbatch_demo/SpringBatchApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模板.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scalaOne/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scalaOne/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scalaOne/src/main/java/com/sziov/cw/test/ProducerPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/scalaOne/src/main/java/com/sziov/cw/test/ProducerPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flume-interceptor/src/main/java/com/sziov/interceptor/MyInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flume-interceptor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flume-interceptor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flume-interceptor/src/main/java/com/sziov/MyInterceptor.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -594,14 +105,27 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32434943" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BigData\scalaDemo\kafkaOne\src\main\resources\config" />
+      <recent name="D:\BigData\scalaDemo\SpiderOne\src\main\java" />
+      <recent name="D:\BigData\scalaDemo\SpiderOne\src\main" />
+      <recent name="D:\BigData\scalaDemo\scalaOne\src\main" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sziov.utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sziov.cw.kafka" />
+      <recent name="com.sziov.cw.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\BigData\scalaDemo\kafkaOne\src\main\java\kafka\test01" />
@@ -609,16 +133,6 @@
       <recent name="D:\BigData\scalaDemo\kafkaOne\src\main\java\kafka\consumer" />
       <recent name="D:\BigData\scalaDemo\scalaOne\src\main\resources" />
       <recent name="D:\BigData\scalaDemo\newbike\src\main\resources\static" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sziov.cw.kafka" />
-      <recent name="com.sziov.cw.test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\BigData\scalaDemo\kafkaOne\src\main\resources\config" />
-      <recent name="D:\BigData\scalaDemo\SpiderOne\src\main\java" />
-      <recent name="D:\BigData\scalaDemo\SpiderOne\src\main" />
-      <recent name="D:\BigData\scalaDemo\scalaOne\src\main" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -644,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KafkaConsumerTest">
+  <component name="RunManager" selected="Application.Test01">
     <configuration name="KafkaConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kafka.consumer.KafkaConsumerTest" />
       <module name="kafkaOne" />
@@ -663,7 +177,7 @@
       <module name="spark-mongo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sziov.*" />
+          <option name="PATTERN" value="com.sziov.interceptor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -676,7 +190,7 @@
       <module name="spark-mongo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sziov.*" />
+          <option name="PATTERN" value="com.sziov.interceptor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -697,6 +211,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sziov.test.Test01" />
+      <module name="flume-interceptor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sziov.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="crawlerOne" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cw.c01.App" />
@@ -707,21 +234,6 @@
     <configuration name="MongodbDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mongodb_demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mongodb_demo.MongodbDemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewbikeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="newbike" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bike.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bike.NewbikeApplication" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -749,15 +261,15 @@
       <item itemvalue="Spring Boot.SpringbatchDemoApplication" />
       <item itemvalue="Spring Boot.SparkMongoApplication" />
       <item itemvalue="Spring Boot.MongodbDemoApplication" />
-      <item itemvalue="Spring Boot.NewbikeApplication" />
+      <item itemvalue="Application.Test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test01" />
         <item itemvalue="Application.KafkaConsumerTest" />
         <item itemvalue="Application.SparkDemo01" />
         <item itemvalue="Application.MongoSparkSQL" />
         <item itemvalue="Application.MongoSparkRDD" />
-        <item itemvalue="Spring Boot.NewbikeApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -822,7 +334,8 @@
       <workItem from="1569718537548" duration="13964000" />
       <workItem from="1569805089264" duration="1168000" />
       <workItem from="1569806288250" duration="5998000" />
-      <workItem from="1569813516855" duration="1377000" />
+      <workItem from="1569813516855" duration="1744000" />
+      <workItem from="1569815307625" duration="6721000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1568616038210</created>

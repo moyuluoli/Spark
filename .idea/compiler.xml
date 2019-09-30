@@ -28,7 +28,7 @@
       <module name="flinkKafka" target="1.5" />
       <module name="flinkOne" target="1.8" />
       <module name="flinkTwo" target="1.8" />
-      <module name="flume-interceptor" target="1.5" />
+      <module name="flume-interceptor" target="1.8" />
       <module name="kafkaOne" target="1.8" />
       <module name="mongodb_demo" target="1.8" />
       <module name="newbike" target="1.8" />
