@@ -2,6 +2,8 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/newbike" />
+    <file type="web" url="file://$PROJECT_DIR$/newbike-02" />
+    <file type="web" url="file://$PROJECT_DIR$/web-boot" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -21,6 +23,11 @@
         <option value="$PROJECT_DIR$/read-yml/pom.xml" />
         <option value="$PROJECT_DIR$/ClouderaManagerAPI/pom.xml" />
         <option value="$PROJECT_DIR$/flume-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/spark-mongo-02/pom.xml" />
+        <option value="$PROJECT_DIR$/web-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/web-spark/pom.xml" />
+        <option value="$PROJECT_DIR$/newbike-02/pom.xml" />
+        <option value="$PROJECT_DIR$/flume-LogCollect/pom.xml" />
       </list>
     </option>
   </component>

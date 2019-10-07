@@ -6,6 +6,7 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
 /**
  * Created by cw on 2017/10/8.
  * https://docs.mongodb.com/spark-connector/current/scala/datasets-and-sql/
+ * 不能运行，请参照spark-mongo-02
  */
 object MongoSparkSQL {
 

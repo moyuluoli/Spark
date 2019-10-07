@@ -8,15 +8,20 @@
       <module fileurl="file://$PROJECT_DIR$/flinkKafka/flinkKafka.iml" filepath="$PROJECT_DIR$/flinkKafka/flinkKafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/flinkOne/flinkOne.iml" filepath="$PROJECT_DIR$/flinkOne/flinkOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/flinkTwo/flinkTwo.iml" filepath="$PROJECT_DIR$/flinkTwo/flinkTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flume-LogCollect/flume-LogCollect.iml" filepath="$PROJECT_DIR$/flume-LogCollect/flume-LogCollect.iml" />
       <module fileurl="file://$PROJECT_DIR$/flume-interceptor/flume-interceptor.iml" filepath="$PROJECT_DIR$/flume-interceptor/flume-interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafkaOne/kafkaOne.iml" filepath="$PROJECT_DIR$/kafkaOne/kafkaOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/mongodb_demo/mongodb_demo.iml" filepath="$PROJECT_DIR$/mongodb_demo/mongodb_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/newbike/newbike.iml" filepath="$PROJECT_DIR$/newbike/newbike.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newbike-02/newbike-02.iml" filepath="$PROJECT_DIR$/newbike-02/newbike-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/read-yml/read-yml.iml" filepath="$PROJECT_DIR$/read-yml/read-yml.iml" />
       <module fileurl="file://$PROJECT_DIR$/scalaDemo.iml" filepath="$PROJECT_DIR$/scalaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scalaOne/scalaOne.iml" filepath="$PROJECT_DIR$/scalaOne/scalaOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-mongo/spark-mongo.iml" filepath="$PROJECT_DIR$/spark-mongo/spark-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-mongo-02/spark-mongo-02.iml" filepath="$PROJECT_DIR$/spark-mongo-02/spark-mongo-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbatch_demo/springbatch_demo.iml" filepath="$PROJECT_DIR$/springbatch_demo/springbatch_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-boot/web-boot.iml" filepath="$PROJECT_DIR$/web-boot/web-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-spark/web-spark.iml" filepath="$PROJECT_DIR$/web-spark/web-spark.iml" />
     </modules>
   </component>
 </project>
