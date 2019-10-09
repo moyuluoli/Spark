@@ -10,20 +10,23 @@
         <module name="mongodb_demo" />
         <module name="ClouderaManagerAPI" />
         <module name="scalaOne" />
+        <module name="flinkOne" />
         <module name="web-spark" />
         <module name="flume-interceptor" />
         <module name="SpiderOne" />
-        <module name="spark-mongo-02" />
-        <module name="newbike-02" />
+        <module name="flinkTwo" />
         <module name="spark-mongo" />
         <module name="flume-LogCollect" />
         <module name="springbatch_demo" />
         <module name="flinkKafka" />
-        <module name="flinkTwo" />
+        <module name="spark-mongo-02" />
+        <module name="springboot-mybatis01" />
         <module name="read-yml" />
         <module name="crawlerOne" />
         <module name="web-boot" />
-        <module name="flinkOne" />
+        <module name="springboot-mybatis" />
+        <module name="newbike-02" />
+        <module name="swagger-server-api" />
         <module name="kafkaOne" />
       </profile>
     </annotationProcessing>
@@ -45,6 +48,9 @@
       <module name="spark-mongo-02" target="1.8" />
       <module name="SpiderOne" target="1.8" />
       <module name="springbatch_demo" target="1.8" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-mybatis01" target="1.8" />
+      <module name="swagger-server-api" target="1.8" />
       <module name="web-boot" target="1.8" />
       <module name="web-spark" target="1.8" />
     </bytecodeTargetLevel>
@@ -58,6 +64,9 @@
       <module name="newbike-02" options="-parameters" />
       <module name="spark-mongo" options="-parameters" />
       <module name="springbatch_demo" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mybatis01" options="-parameters" />
+      <module name="swagger-server-api" options="" />
       <module name="web-boot" options="-parameters" />
       <module name="web-spark" options="-parameters" />
     </option>

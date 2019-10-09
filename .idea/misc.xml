@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/newbike" />
     <file type="web" url="file://$PROJECT_DIR$/newbike-02" />
+    <file type="web" url="file://$PROJECT_DIR$/swagger-server-api" />
     <file type="web" url="file://$PROJECT_DIR$/web-boot" />
   </component>
   <component name="MavenProjectsManager">
@@ -28,6 +29,9 @@
         <option value="$PROJECT_DIR$/web-spark/pom.xml" />
         <option value="$PROJECT_DIR$/newbike-02/pom.xml" />
         <option value="$PROJECT_DIR$/flume-LogCollect/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis01/pom.xml" />
+        <option value="$PROJECT_DIR$/swagger-server-api/pom.xml" />
       </list>
     </option>
   </component>

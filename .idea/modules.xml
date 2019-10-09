@@ -20,6 +20,9 @@
       <module fileurl="file://$PROJECT_DIR$/spark-mongo/spark-mongo.iml" filepath="$PROJECT_DIR$/spark-mongo/spark-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-mongo-02/spark-mongo-02.iml" filepath="$PROJECT_DIR$/spark-mongo-02/spark-mongo-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbatch_demo/springbatch_demo.iml" filepath="$PROJECT_DIR$/springbatch_demo/springbatch_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis01/springboot-mybatis01.iml" filepath="$PROJECT_DIR$/springboot-mybatis01/springboot-mybatis01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger-server-api/swagger-server-api.iml" filepath="$PROJECT_DIR$/swagger-server-api/swagger-server-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-boot/web-boot.iml" filepath="$PROJECT_DIR$/web-boot/web-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-spark/web-spark.iml" filepath="$PROJECT_DIR$/web-spark/web-spark.iml" />
     </modules>
